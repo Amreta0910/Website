@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Place order</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="proj.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Permanent+Marker&family=Syne+Tactile&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class=""navbar-header">
+    <a class="navbar-brand">Welcome</a>
+    </div>
+<ul class="nav navbar-nav">
+    <li><a href="project.html">Order Page</a></li>
+
+</ul>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Placing Order</h1>
+        <p class="am">Enter your information to place order to taste yummy chocolates</p>
+
+    </div>
+<form action="thanku.html" method="get">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" type="text" class="form-control">
+            <label for="no">Mobile Number:</label>
+            <input id="no" type="number" class="form-control">
+            <label for="mail">Email:</label>
+            <input id="mail" class="form-control" type="email">
+            <label for="address">Address:</label>
+            <textarea class="form-control" id="address" row="8" cols="180"></textarea>
+         </div>
+        <fieldset class="form-group">
+            <legend>Select Chocolate types</legend>
+            <div class="form-check-label">
+
+            <label for="co" class="form-check-label">Normal chocolates</label>
+            <input type="radio" id="co" class="form-check-input" value="Normal Chocolates" name="loc">
+            <label for="ho" class="form-check-label">Home-made Chocolates</label>
+            <input id="ho" type="radio" class="form-check-inout" value="Home-made Chocolates " name="loc">
+            </div>
+        </fieldset>
+
+        <div class="form-check">
+            <label for="choco">Select Chocolates:</label>
+            <select multiple class="form-control" id="choco">
+                <option>Cadbury Dairy milk</option>
+                <option>Kit-Kat</option>
+                <option>Perk</option>
+                <option>5star</option>
+                <option>MilkyBar</option>
+                <option>Toblerone</option>
+                <option>Ferrero Rocher</option>
+                <option>Munch</option>
+                <option>Snickers</option>
+            </select>
+             </div><br>
+        <div class="form-check">
+           <label for="home">Select Home-Made Chocolates:</label>
+            <select multiple class="form-control" id="home">
+                <option>Dark Chocolates</option>
+                <option>Chocolate Kisses</option>
+                <option>Chunks of Heaven</option>
+                <option>Chocolate bars</option>
+                <option>Milky Chocolates</option>
+            </select>
+        </div><br>
+
+
+            <button type="submit" class="btn btn-success">Place Order</button>
+
+
+
+
+
+
+    </form>
+    </div>
+</div>
+
+</body>
+</html>

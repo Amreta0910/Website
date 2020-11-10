@@ -1,0 +1,59 @@
+h1{
+font-family: 'Permanent Marker', cursive;
+    text-align:center;
+    font-weight:bold;
+    color:#004e98;
+
+}
+h3{
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Syne Tactile', cursive;
+    font-weight:bold;
+    color:#f20089;
+    
+}
+.wow{
+    font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Syne Tactile', cursive;
+}
+.me{
+    color:#f7567c;
+}
+body{
+    background:#56cfe1;
+    border: 30px solid darkmagenta;
+    border-top:0px;
+}
+.am{
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Syne Tactile', cursive;
+    text-align:center;
+}
+h2{
+    font-weight:bold;
+}
+.re{
+    font-weight:bold;
+    color:#ba181b;
+    text-decoration:underline;
+}
+span{
+    font-weight:bold;
+}
+.boxy{
+    background:#b8f2e6;
+    border:1.5px solid black;
+}
+.hed{
+    font-weight:bold;
+    text-align:center;
+}
+h2{
+  font-family: 'Permanent Marker', cursive;
+font-family: 'Syne Tactile', cursive;
+    text-decoration:underline;
+}
